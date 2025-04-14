@@ -1,0 +1,42 @@
+header,nav,.heade_cart_heart_section{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+header{
+    gap: 50px;
+    padding: 0px 50px 0px 50px;
+}
+nav{
+    gap: 40px;
+    font-size: 23px;
+}
+.nav_links{
+    text-decoration: none;
+    color: black;
+}
+.header_search_section{
+    position: relative;
+}
+.header_search_section input{
+    width: 375px;
+    height: 45px;
+    border: 1px solid rgba(128, 128, 128, 0.488);
+    font-size: 20px;
+    padding: 10px;
+}
+.header_search_section span{
+    position: absolute;
+    right: 3%;
+    top:25%;
+}
+.header_search_section i{
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.488);
+}
+.heade_cart_heart_section i{
+    font-size: 25px;
+}
+.heade_cart_heart_section{
+    gap: 30px;
+}
