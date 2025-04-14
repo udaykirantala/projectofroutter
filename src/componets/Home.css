@@ -2,4 +2,117 @@
     display: flex;
     justify-content: baseline;
     align-items: center;
+    padding: 0px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap:60px;
+}
+.herosectionpromotions h3{
+    font-size: 30px;
+    font-weight:500;
+    margin: 0px 0px 20px 0px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.herosectionpromotions h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.herosectionpromotions p{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: 3px;
+}
+.herosectionpromotions span{
+    color:rgb(6, 186, 54);
+}
+.herosectionpromotions button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(6, 186, 54);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.newArrivalsSection{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 50px 0px 50px;
+}
+.newArrivalsCarts{
+    width: 19%;
+    border: 1px solid rgb(6, 186, 54);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.newArrivalsCarts img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.newArrivalsContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+.newArrivalsContent span{
+    color:rgb(6, 186, 54);
+}
+.newArrivalsContent p{
+    font-size: 30px;
+}
+.newArrivalsContentbut button{
+    border: none;
+    background-color: aquamarine;
+    border-radius: 90px;
+    padding: 15px 17px;
+}
+.newArrivalsContentbut{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+}
+.feturedCatigorySection{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20px;
+    padding: 0px 50px;
+}
+.feturedCatigorySection p{
+    background-color: rgba(128, 128, 128, 0.405);
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.feturedCatigorySection span p{
+    background-color: blanchedalmond;
+}
+.feturedCatigoryCarts{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0px 50px;
+    gap: 20px;
+}
+.feturedCatigoryCart{
+    width: 30.8%;
+    border: 1px solid rgb(6, 186, 54);
+    border-radius: 10px;
+    padding: 10px;
+}
+.feturedCatigoryCart img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
 }

@@ -1,0 +1,20 @@
+.fotterExtradetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-size: 25px;
+    background-color:rgb(6, 186, 54);
+}
+.fotterExtradetails input{
+    height: 30px;
+    width: 250px;
+    border: none;
+}
+.fotterExtradetails button{
+    border: none;
+    width: 100px;
+    height: 32px;
+    background-color: black;
+    color: white;
+}
